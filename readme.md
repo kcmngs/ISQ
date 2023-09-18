@@ -1,4 +1,4 @@
-#### 参数说明
+#### Parameter description
 usage: IS_count.py
 
 optional arguments:
@@ -11,12 +11,12 @@ optional arguments:
   -o OUTPUT             output prefix
   --log LOG             log
 
-- -i 输入ic内标比对结果，参考格式test/294-BA-2-1.sample.ic
-- --anno 输入要定量的文件前缀，如test/294-BA-2-1，程序自动查找对应的微生物文件*.anno.tsv
-- --rmdup 默认不进行去duplication,带上该参数时使用去duplication
-- --config 配置文件，主要配置ic_group用于各个内参组设置，ic_group_nd用于设置内参浓度梯度
-- -o  设置输出文件前缀
-- --log 日志文件
+- -i Enter ic internal standard comparison results, reference format:test/294-BA-2-1.sample.ic
+- --anno Enter the prefix of the file to be quantized，eg:test/294-BA-2-1.The program automatically finds the corresponding microbiology file *.anno.tsv
+- --rmdup The default is not to go duplication,with this parameter use goduplication
+- --config configuration file.The main configuration ic_group is used for each internal reference group setting，ic_group_nd is used to set the concentration gradient of the internal reference
+- -o  Setting the output file prefix
+- --log log file
 
-#### 运行说明
-参考test/test.sh
+#### Running Instructions
+consultation:test/test.sh
